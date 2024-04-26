@@ -1,0 +1,7 @@
+newmtl Night
+Kd 0.5 0.5 0.5
+Ke 0 0 0
+map_Kd Night.tga
+map_Bump Night_Nm.tga
+illum 2
+

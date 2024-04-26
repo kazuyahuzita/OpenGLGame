@@ -1,0 +1,7 @@
+newmtl Sofa_Bottom (Instance) (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Sofa_Sofa_Bottom_AlbedoTransparency.tga
+map_Bump Sofa_Sofa_Bottom_Normal.tga
+illum 2
+

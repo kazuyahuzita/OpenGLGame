@@ -1,0 +1,8 @@
+newmtl Pine_tree (Instance) (Instance)
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+map_Kd Pine_tree_texture.tga
+map_Bump Pine_tree_normal.tga
+illum 2
+

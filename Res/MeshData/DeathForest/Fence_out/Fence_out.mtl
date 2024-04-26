@@ -1,0 +1,7 @@
+newmtl BLD_Structures2 (Instance) (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd BLD_Structures2_A.tga
+map_Bump BLD_Structures2_N.tga
+illum 2
+

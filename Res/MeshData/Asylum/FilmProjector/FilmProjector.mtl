@@ -1,0 +1,7 @@
+newmtl FilmProjector (Instance) (Instance) (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd FilmProjector_Albedo.tga
+map_Bump FilmProjector_Normal.tga
+illum 2
+

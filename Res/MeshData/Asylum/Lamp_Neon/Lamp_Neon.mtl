@@ -1,0 +1,8 @@
+newmtl NeonLamp (Instance) (Instance)
+Kd 1 1 1
+Ke 1 1 1
+map_Kd NeonLamp_Albedo.tga
+map_Bump NeonLamp_Normal.tga
+map_Ke NeonLamp_Emission.tga
+illum 2
+

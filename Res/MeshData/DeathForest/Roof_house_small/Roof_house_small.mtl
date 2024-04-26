@@ -1,0 +1,7 @@
+newmtl mCloth_4 (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Cloth_4_Albedo.tga
+map_Bump Cloth_4_Normal.tga
+illum 2
+

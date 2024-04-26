@@ -1,0 +1,8 @@
+newmtl Chandelier (Instance) (Instance)
+Kd 1 1 1
+Ke 1 1 1
+map_Kd Chandelier_Albedo.tga
+map_Bump Chandelier_Normal.tga
+map_Ke Chandelier_Emission.tga
+illum 2
+

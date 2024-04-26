@@ -1,0 +1,7 @@
+newmtl Window_DayRoom (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Window_DayRoom_Albedo.tga
+map_Bump Window_DayRoom_Normal.tga
+illum 2
+

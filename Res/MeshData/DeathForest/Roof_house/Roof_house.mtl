@@ -1,0 +1,7 @@
+newmtl M_house_roof (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd T_house_roof_D.tga
+map_Bump T_house_roof_N.tga
+illum 2
+

@@ -1,0 +1,7 @@
+newmtl TableOffice (Instance) (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd TableOffice_Albedo.tga
+map_Bump TableOfficeNormal.tga
+illum 2
+

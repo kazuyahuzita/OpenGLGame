@@ -1,0 +1,7 @@
+newmtl SurgeryTable (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd SurgeryTable_Albedo.tga
+map_Bump SurgeryTable_Normal.tga
+illum 2
+

@@ -1,0 +1,7 @@
+newmtl Explosives
+Kd 1 1 1
+Ks 0.8059701 0.8059701 0.8059701
+map_Kd ExplosivesSpecularDiffuse.tga
+map_Bump ExplosivesNormals.tga
+illum 2
+

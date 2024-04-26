@@ -1,0 +1,7 @@
+newmtl DiningRoom_EnterFrame (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd DiningRoom_EnterFrame_Albedo.tga
+map_Bump DiningRoom_EnterFrame_Normal.tga
+illum 2
+

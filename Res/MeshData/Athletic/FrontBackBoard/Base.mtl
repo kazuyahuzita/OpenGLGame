@@ -1,0 +1,7 @@
+newmtl mWall_15
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Wall_15_Albedo.tga
+map_Bump Wall_15_Normal.tga
+illum 2
+

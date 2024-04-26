@@ -1,0 +1,15 @@
+newmtl PBR_BuildersTorch_yellow
+Kd 1 1 1
+Ke 3 3 3
+map_Kd BuildersTorch_Albedo.tga
+map_Bump BuildersTorch_normal.tga
+map_Ke BuildersTorch_emissive.tga
+illum 2
+
+newmtl PBR_BuildersTorch_lensMat
+Kd 1 1 1
+Ke 1 1 1
+map_Kd BuildersTorch_lensOpacity.tga
+map_Bump BuildersTorch_normal.tga
+illum 2
+

@@ -1,0 +1,7 @@
+newmtl Door_Frame (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Door_V1_Frame_Door_Albedo.tga
+map_Bump Door_V1_Frame_Door_Normal.tga
+illum 2
+

@@ -1,0 +1,25 @@
+タイトルBGMが
+HURTRECORDさんの
+フリーBGM(無料音源) TSD-023	怪しげな森
+
+ © 20013-2023 効果音ラボ All Rights Reserved.
+ボタンを押した際の音(決定ボタンを押す音31.mp3)
+ジェムをゲットした際の音(決定ボタンを押す49.mp3)
+が効果音ラボ
+
+Copyright (C) 2000-3000 FREEM CO LTD. All Rights Reserved.
+ゲームオーバー時の音(audio_23693_sample.m4a)
+がFreem
+
+©(Copyright) 2016-2023 創作堂さくら紅葉 All Rights Reserved.
+サイト名：創作同さくら紅葉
+アドレス名：https://yukizakura.net/
+
+バイク操作中の音が、艟艨（番号b084、製作者:坂田白さん）
+エネミーの追跡時の音楽が、
+ゲームクリア時の音楽がSaa ya tatu(番号b040、製作者:彼方サーバーさん)、
+ゲームプレイ中の音楽は台風と肝試し(番号b020、製作者:彼方サーバーさん)、
+敵の追跡中の音楽はStrangeNight(番号b047、製作者:AnDさん)
+
+ジャンプ音が
+(c) Taira Komori 制作/著作 小森平さんのjump12

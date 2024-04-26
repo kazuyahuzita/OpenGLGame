@@ -1,0 +1,7 @@
+newmtl Elevator (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Elevator_Albedo.tga
+map_Bump Elevator_Normal.tga
+illum 2
+

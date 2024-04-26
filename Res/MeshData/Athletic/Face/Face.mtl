@@ -1,0 +1,7 @@
+newmtl PlasiceneHead
+Kd 0.5882353 0.5882353 0.5882353
+Ke 0 0 0
+map_Kd Plasto_Head_Albedo.tga
+map_Bump Plasto_Head_normal.tga
+illum 2
+

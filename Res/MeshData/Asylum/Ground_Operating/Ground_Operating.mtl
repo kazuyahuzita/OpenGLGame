@@ -1,0 +1,7 @@
+newmtl Tiles_1 (Instance) (Instance) (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Tiles_1_Albedo.tga
+map_Bump Tiles_1_Normal.tga
+illum 2
+

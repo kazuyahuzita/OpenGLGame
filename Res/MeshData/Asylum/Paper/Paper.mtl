@@ -1,0 +1,7 @@
+newmtl Paper (Instance) (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Paper_Albedo.tga
+map_Bump Paper_Normal.tga
+illum 2
+

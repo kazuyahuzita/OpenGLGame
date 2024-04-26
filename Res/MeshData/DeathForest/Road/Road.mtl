@@ -1,0 +1,5 @@
+newmtl 2RoadMob
+map_Kd Road_2lane_dark02.tga
+map_Bump Road_2lane_dark02_n.tga
+illum 2
+

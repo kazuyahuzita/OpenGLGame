@@ -1,0 +1,4 @@
+newmtl SeaMaterial
+map_Kd Red.tga
+illum 2
+

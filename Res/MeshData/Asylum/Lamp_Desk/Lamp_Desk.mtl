@@ -1,0 +1,8 @@
+newmtl Lamp (Instance) (Instance) (Instance)
+Kd 1 1 1
+Ke 1 1 1
+map_Kd Lamp_Albedo.tga
+map_Bump Lamp_Normal.tga
+map_Ke Lamp_Emission.tga
+illum 2
+

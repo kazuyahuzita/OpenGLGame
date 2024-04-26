@@ -1,0 +1,4 @@
+newmtl SeaMaterial
+map_Kd Yamasha.tga
+illum 2
+

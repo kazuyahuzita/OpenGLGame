@@ -1,0 +1,14 @@
+newmtl Sofa_Pattern (Instance) (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Sofa_Sofa_Base_AlbedoTransparency.tga
+map_Bump Sofa_Sofa_Base_Normal.tga
+illum 2
+
+newmtl Sofa_Base
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Sofa_Sofa_Patern_AlbedoTransparency.tga
+map_Bump Sofa_Sofa_Patern_Normal.tga
+illum 2
+

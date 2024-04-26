@@ -1,0 +1,7 @@
+newmtl FlyingInsect_Purple
+Kd 1 1 1
+Ke 0 0 0
+map_Kd FlyingInsect_Purple.tga
+map_Bump FlyingInsect_Normal.tga
+illum 2
+

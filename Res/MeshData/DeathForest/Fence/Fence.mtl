@@ -1,0 +1,4 @@
+newmtl RailingA_mt1 (Instance) (Instance)
+map_Kd RailingA_mt1_D.tga
+illum 2
+

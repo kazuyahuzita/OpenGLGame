@@ -1,0 +1,8 @@
+newmtl GermBlob
+Kd 1 1 1
+Ke 0.5735392 0.5735392 0.5735392
+map_Kd GermBlob_Albedo.tga
+map_Bump GermBlob_Normal.tga
+map_Ke GermBlob_Albedo.tga
+illum 2
+

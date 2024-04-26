@@ -1,0 +1,7 @@
+newmtl mFloor_10 (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Floor_10_Albedo.tga
+map_Bump Floor_10_Normal.tga
+illum 2
+

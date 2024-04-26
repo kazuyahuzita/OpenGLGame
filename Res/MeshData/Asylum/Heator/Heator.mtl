@@ -1,0 +1,7 @@
+newmtl Heater (Instance) (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Heater_Albedo.tga
+map_Bump Heater_Normal.tga
+illum 2
+

@@ -1,0 +1,4 @@
+newmtl wave-sea
+map_Kd wave-sea.tga
+illum 2
+

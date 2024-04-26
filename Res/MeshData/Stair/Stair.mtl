@@ -1,0 +1,4 @@
+newmtl StairMaterial
+map_Kd FD_Cliff_1.tga
+illum 2
+

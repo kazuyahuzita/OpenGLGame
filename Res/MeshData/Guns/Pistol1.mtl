@@ -1,0 +1,7 @@
+newmtl pistol1
+Kd 1 1 1
+Ke 0 0 0
+map_Kd pistol1_diffuse.tga
+map_Bump pistol1_normal.tga
+illum 2
+

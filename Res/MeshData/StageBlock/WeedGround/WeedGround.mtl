@@ -1,0 +1,8 @@
+newmtl NAT_GroundMoss (Instance)
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+map_Kd GR_Moss1_AS.tga
+map_Bump GR_Dirt1_N.tga
+illum 2
+

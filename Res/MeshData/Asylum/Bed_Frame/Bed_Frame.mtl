@@ -1,0 +1,7 @@
+newmtl Bed (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Bed_Albedo.tga
+map_Bump Bed_Normal.tga
+illum 2
+

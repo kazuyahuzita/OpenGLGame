@@ -1,0 +1,8 @@
+newmtl Rocks (Instance) (Instance)
+Kd 1 1 1
+Ks 1 1 1
+Ke 0 0 0
+map_Kd Rocks_3_4_texture.tga
+map_Bump Rocks_3_4_normal.tga
+illum 2
+

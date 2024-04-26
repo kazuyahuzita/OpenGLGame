@@ -1,0 +1,7 @@
+newmtl DoorD_V2_Frame (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd DoorD_V2_Frame_Albedo.tga
+map_Bump DoorD_V2_Frame_Normal.tga
+illum 2
+

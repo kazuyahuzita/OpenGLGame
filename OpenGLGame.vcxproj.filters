@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\glad">
+      <UniqueIdentifier>{92cbe20c-4130-4f5c-b9b6-18e2ba6ca77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src">
+      <UniqueIdentifier>{e741b4fc-bf88-4bba-bf02-d97df53e1e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src/Engine">
+      <UniqueIdentifier>{d9a1cd5e-2e83-46e0-a82d-ef86789a3638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Src\Scene">
+      <UniqueIdentifier>{96a01cfa-58ae-4e0f-a855-81dd3a93e3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src\UI">
+      <UniqueIdentifier>{48266467-da93-43f1-90c5-d55ac6e0f607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src\GameObject">
+      <UniqueIdentifier>{59eddab3-e74d-4689-a059-c7abd2adc327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src\Player">
+      <UniqueIdentifier>{c7aaf463-df97-4a0e-993f-4d491cf64a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src/Engine\Collider">
+      <UniqueIdentifier>{252482be-de1c-41c0-9018-7ae8864543d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src/Engine\Player">
+      <UniqueIdentifier>{2b9110ed-129c-43d6-ae84-7ee52ae32fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src/Engine\GameObject">
+      <UniqueIdentifier>{8f926b31-87f6-463a-8650-08ef078c3ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src/Engine\UI">
+      <UniqueIdentifier>{804e4c4d-a2ce-45c4-b69d-06aafbd29db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src/Engine\Calc">
+      <UniqueIdentifier>{5ba0ea94-7683-4524-90ae-17e53b91b5ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src/Engine\Base">
+      <UniqueIdentifier>{9bb90966-fa5f-4d34-9c37-eec502260144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src/Engine\Json">
+      <UniqueIdentifier>{d846af19-d94a-4558-9e1b-9d9ef8e06242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src\StageMaker">
+      <UniqueIdentifier>{3f5bf42a-16cb-41fe-9792-f04e5e91d310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src\GameObject\MoveSceneObject">
+      <UniqueIdentifier>{ec3f59f7-89e3-4021-a599-f576c2dc7172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src\GameObject\EnemyObject">
+      <UniqueIdentifier>{1fb3fa87-722b-4ece-8cb9-7cc0ad39361a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src\GameObject\UIObject">
+      <UniqueIdentifier>{4f665348-ee77-426a-a536-f60ba1c7defd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src\GameObject\EmptyObject">
+      <UniqueIdentifier>{9c10cc6c-cc00-43b5-8237-613b3f89a01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src\GameObject\GimmickObject">
+      <UniqueIdentifier>{9294fa70-4e00-47fd-9882-eb87a2c30561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src\Scene\UIScene">
+      <UniqueIdentifier>{ad4adab6-3744-4a2a-bdad-7abd053538ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Src\Scene\PlayScene">
+      <UniqueIdentifier>{7d7f97f9-b080-4622-80e8-b5ff25ef3c45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Res\unlit.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Res\unlit.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Res\shadow.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Res\shadow.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Res\skeletal.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Res\Json\AsylumMap.json">
+      <Filter>ソース ファイル\Src/Engine\Json</Filter>
+    </None>
+    <None Include="Res\Json\Athletic.json">
+      <Filter>ソース ファイル\Src/Engine\Json</Filter>
+    </None>
+    <None Include="Res\Json\GameObjectMap.json">
+      <Filter>ソース ファイル\Src/Engine\Json</Filter>
+    </None>
+    <None Include="Res\standard.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Res\standard.vert">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Res\cloud.frag">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="Res\Json\DeathForestMap.json">
+      <Filter>ソース ファイル\Src/Engine\Json</Filter>
+    </None>
+    <None Include="Res\Json\DeathForestMap2.json">
+      <Filter>ソース ファイル\Src/Engine\Json</Filter>
+    </None>
+    <None Include="Res\Json\Stage1.json">
+      <Filter>ソース ファイル\Src/Engine\Json</Filter>
+    </None>
+    <None Include="Res\Json\Stage2.json">
+      <Filter>ソース ファイル\Src/Engine\Json</Filter>
+    </None>
+    <None Include="Res\Json\Stage3.json">
+      <Filter>ソース ファイル\Src/Engine\Json</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\glad\src\glad.c">
+      <Filter>ソース ファイル\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Main.cpp">
+      <Filter>ソース ファイル\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Collision.cpp">
+      <Filter>ソース ファイル\Src/Engine\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\PlayerComponent.cpp">
+      <Filter>ソース ファイル\Src/Engine\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Rider.cpp">
+      <Filter>ソース ファイル\Src/Engine\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Debug.cpp">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\EasyAudio\EasyAudio.cpp">
+      <Filter>ソース ファイル\Src/Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Engine.cpp">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\FramebufferObject.cpp">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\GameObject.cpp">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Light.cpp">
+      <Filter>ソース ファイル\Src/Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Mesh.cpp">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Random.cpp">
+      <Filter>ソース ファイル\Src/Engine\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\Texture.cpp">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\UIButton.cpp">
+      <Filter>ソース ファイル\Src/Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Engine\UILayout.cpp">
+      <Filter>ソース ファイル\Src/Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameObjectSettingsJSON.cpp">
+      <Filter>ソース ファイル\Src\StageMaker</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MoveExplorationScene.cpp">
+      <Filter>ソース ファイル\Src\GameObject\MoveSceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MoveHorrorScene.cpp">
+      <Filter>ソース ファイル\Src\GameObject\MoveSceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MoveAthleticScene.cpp">
+      <Filter>ソース ファイル\Src\GameObject\MoveSceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MoveEnemy.cpp">
+      <Filter>ソース ファイル\Src\GameObject\EnemyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SpawnEnemy.cpp">
+      <Filter>ソース ファイル\Src\GameObject\EnemyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\NormalEnemy.cpp">
+      <Filter>ソース ファイル\Src\GameObject\EnemyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DartSmoke.cpp">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GateEffect.cpp">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GemsUI.cpp">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HorrorItemUI.cpp">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TextBlock.cpp">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Bike.cpp">
+      <Filter>ソース ファイル\Src\GameObject\EmptyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FrontBackBoard.cpp">
+      <Filter>ソース ファイル\Src\GameObject\GimmickObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Gate.cpp">
+      <Filter>ソース ファイル\Src\GameObject\GimmickObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GoalObject.cpp">
+      <Filter>ソース ファイル\Src\GameObject\EmptyObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MoveBlock.cpp">
+      <Filter>ソース ファイル\Src\GameObject\GimmickObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Item.cpp">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ItemBlock.cpp">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AthleticScene.cpp">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AthleticStage1Scene.cpp">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ExplorationScene.cpp">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HorrorGameScene.cpp">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RiderScene.cpp">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HorrorDeathScene.cpp">
+      <Filter>ソース ファイル\Src\Scene\UIScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HorrorGoalScene.cpp">
+      <Filter>ソース ファイル\Src\Scene\UIScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TitleScene.cpp">
+      <Filter>ソース ファイル\Src\Scene\UIScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Tornado.cpp">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AthleticStage2Scene.cpp">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AthleticStage3Scene.cpp">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MoveStage2Scene.cpp">
+      <Filter>ソース ファイル\Src\GameObject\MoveSceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MoveStage3Scene.cpp">
+      <Filter>ソース ファイル\Src\GameObject\MoveSceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MoveStage1Scene.cpp">
+      <Filter>ソース ファイル\Src\GameObject\MoveSceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RotateBar.cpp">
+      <Filter>ソース ファイル\Src\GameObject\GimmickObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MeasureTime.cpp">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HorrorTitleScene.cpp">
+      <Filter>ソース ファイル\Src\Scene\UIScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AthleticGoalScene.cpp">
+      <Filter>ソース ファイル\Src\Scene\UIScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AthleticTitleScene.cpp">
+      <Filter>ソース ファイル\Src\Scene\UIScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\glad\include\glad\glad.h">
+      <Filter>ソース ファイル\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\glad\include\KHR\khrplatform.h">
+      <Filter>ソース ファイル\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AudioSettings.h">
+      <Filter>ソース ファイル\Src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Effect.h">
+      <Filter>ソース ファイル\Src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FirstPersonCamera.h">
+      <Filter>ソース ファイル\Src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ImageSettings.h">
+      <Filter>ソース ファイル\Src\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\AabbCollider.h">
+      <Filter>ソース ファイル\Src/Engine\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\BoxCollider.h">
+      <Filter>ソース ファイル\Src/Engine\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Collider.h">
+      <Filter>ソース ファイル\Src/Engine\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Collision.h">
+      <Filter>ソース ファイル\Src/Engine\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\BufferObject.h">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\CharacterMovement.h">
+      <Filter>ソース ファイル\Src/Engine\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\PlayerComponent.h">
+      <Filter>ソース ファイル\Src/Engine\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Rider.h">
+      <Filter>ソース ファイル\Src/Engine\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Billboard.h">
+      <Filter>ソース ファイル\Src/Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Component.h">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Controller.h">
+      <Filter>ソース ファイル\Src/Engine\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Debug.h">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\EasyAudio\EasyAudio.h">
+      <Filter>ソース ファイル\Src/Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Engine.h">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\FramebufferObject.h">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\GameObject.h">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Light.h">
+      <Filter>ソース ファイル\Src/Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Mesh.h">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Random.h">
+      <Filter>ソース ファイル\Src/Engine\Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\VecMath.h">
+      <Filter>ソース ファイル\Src/Engine\Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Scene.h">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\SphereCollider.h">
+      <Filter>ソース ファイル\Src/Engine\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\Texture.h">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\UIButton.h">
+      <Filter>ソース ファイル\Src/Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\UILayout.h">
+      <Filter>ソース ファイル\Src/Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\VertexArrayObject.h">
+      <Filter>ソース ファイル\Src/Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameObjectSettingsJSON.h">
+      <Filter>ソース ファイル\Src\StageMaker</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine\SlidingMovement.h">
+      <Filter>ソース ファイル\Src/Engine\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MoveExplorationScene.h">
+      <Filter>ソース ファイル\Src\GameObject\MoveSceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MoveHorrorScene.h">
+      <Filter>ソース ファイル\Src\GameObject\MoveSceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MoveAthleticScene.h">
+      <Filter>ソース ファイル\Src\GameObject\MoveSceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MoveEnemy.h">
+      <Filter>ソース ファイル\Src\GameObject\EnemyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SpawnEnemy.h">
+      <Filter>ソース ファイル\Src\GameObject\EnemyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\NormalEnemy.h">
+      <Filter>ソース ファイル\Src\GameObject\EnemyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DartSmoke.h">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FireEmitter.h">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GateEffect.h">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GemsUI.h">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HorrorItemUI.h">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TextBlock.h">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Bike.h">
+      <Filter>ソース ファイル\Src\GameObject\EmptyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FrontBackBoard.h">
+      <Filter>ソース ファイル\Src\GameObject\GimmickObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Gate.h">
+      <Filter>ソース ファイル\Src\GameObject\GimmickObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GoalObject.h">
+      <Filter>ソース ファイル\Src\GameObject\EmptyObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MoveBlock.h">
+      <Filter>ソース ファイル\Src\GameObject\GimmickObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Item.h">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ItemBlock.h">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AthleticScene.h">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AthleticStage1Scene.h">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\ExplorationScene.h">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HorrorGameScene.h">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\RiderScene.h">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HorrorDeathScene.h">
+      <Filter>ソース ファイル\Src\Scene\UIScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HorrorGoalScene.h">
+      <Filter>ソース ファイル\Src\Scene\UIScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TitleScene.h">
+      <Filter>ソース ファイル\Src\Scene\UIScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tornado.h">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AthleticStage2Scene.h">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AthleticStage3Scene.h">
+      <Filter>ソース ファイル\Src\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MoveStage2Scene.h">
+      <Filter>ソース ファイル\Src\GameObject\MoveSceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MoveStage3Scene.h">
+      <Filter>ソース ファイル\Src\GameObject\MoveSceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MoveStage1Scene.h">
+      <Filter>ソース ファイル\Src\GameObject\MoveSceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\RotateBar.h">
+      <Filter>ソース ファイル\Src\GameObject\GimmickObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MeasureTime.h">
+      <Filter>ソース ファイル\Src\GameObject\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HorrorTitleScene.h">
+      <Filter>ソース ファイル\Src\Scene\UIScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AthleticGoalScene.h">
+      <Filter>ソース ファイル\Src\Scene\UIScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AthleticTitleScene.h">
+      <Filter>ソース ファイル\Src\Scene\UIScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\MeshData\a_piece_of_nature\Rocks_3_4_texture.tga">
+      <Filter>ソース ファイル</Filter>
+    </Image>
+    <Image Include="Res\MeshData\Athletic\Wall\GR_Moss1_AS.tga">
+      <Filter>ソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

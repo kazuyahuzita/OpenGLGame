@@ -1,0 +1,8 @@
+newmtl WoodFloor (Instance) (Instance) (Instance)
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+map_Kd FloorWood.tga
+map_Bump FloorWood_normal.tga
+illum 2
+

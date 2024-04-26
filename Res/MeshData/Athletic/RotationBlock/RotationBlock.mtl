@@ -1,0 +1,13 @@
+newmtl Wood 1
+Kd 1 0 0
+Ke 0 0 0
+map_Kd wood.tga
+illum 2
+
+newmtl Wall_1
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Wall_1_Albedo.tga
+map_Bump Wall_1_Normal.tga
+illum 2
+

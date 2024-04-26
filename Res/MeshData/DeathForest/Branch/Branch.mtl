@@ -1,0 +1,6 @@
+newmtl Branch1 (Instance)
+Kd 1 1 1
+map_Kd FOL_Branch1_AS.tga
+map_Bump FOL_Branch1_N.tga
+illum 2
+

@@ -1,0 +1,7 @@
+newmtl ProjectorCloth (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd ProjectorCloth_Albedo.tga
+map_Bump ProjectorCloth_Normal.tga
+illum 2
+

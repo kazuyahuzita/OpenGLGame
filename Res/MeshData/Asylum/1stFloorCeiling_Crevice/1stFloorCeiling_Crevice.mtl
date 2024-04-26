@@ -1,0 +1,4 @@
+newmtl SeaMaterial (Instance) (Instance) (Instance) (Instance)
+map_Kd Yamasha.tga
+illum 2
+

@@ -1,0 +1,7 @@
+newmtl SugeryChair_Pillow (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd SurgeryChair_Pillow_Albedo.tga
+map_Bump SurgeryChair_Pillow_Normal.tga
+illum 2
+

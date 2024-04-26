@@ -1,0 +1,8 @@
+newmtl mGround_4 (Instance) (Instance)
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+map_Kd Ground_4_Albedo.tga
+map_Bump Ground_4_Normal.tga
+illum 2
+

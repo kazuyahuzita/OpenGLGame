@@ -1,0 +1,8 @@
+newmtl SingleLight (Instance) (Instance)
+Kd 1 1 1
+Ke 2 2 2
+map_Kd SingleLight_Albedo.tga
+map_Bump SingleLight_Normal.tga
+map_Ke null
+illum 2
+

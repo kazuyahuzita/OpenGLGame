@@ -1,0 +1,4 @@
+newmtl Motor_mt1
+map_Kd Motor_mt1_D.tga
+illum 2
+

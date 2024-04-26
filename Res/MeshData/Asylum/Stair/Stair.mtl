@@ -1,0 +1,8 @@
+newmtl Wood_facingFrame (Instance) (Instance)
+Kd 0.7058823 0.7058823 0.7058823
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+map_Kd Wall_Wood_2_diffuse.tga
+map_Bump Wall_Wood_2_normal.tga
+illum 2
+

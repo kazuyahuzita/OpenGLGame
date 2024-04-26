@@ -1,0 +1,4 @@
+newmtl RoadMaterial
+map_Kd bloack.tga
+illum 2
+

@@ -1,0 +1,6 @@
+newmtl Branches_0
+Kd 1 1 1
+map_Kd BroadleafBark.tga
+map_Bump BroadleafBark_Normal.tga
+illum 2
+

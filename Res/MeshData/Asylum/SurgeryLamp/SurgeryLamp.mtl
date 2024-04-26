@@ -1,0 +1,8 @@
+newmtl SurgeryLamp (Instance) (Instance)
+Kd 1 1 1
+Ke 1 1 1
+map_Kd SurgeryLamp__Albedo.tga
+map_Bump SurgeryLamp_Normal.tga
+map_Ke SurgeryLamp_Emission.tga
+illum 2
+

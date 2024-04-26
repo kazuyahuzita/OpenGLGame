@@ -1,0 +1,4 @@
+newmtl SeaMaterial
+map_Kd water.tga
+illum 2
+

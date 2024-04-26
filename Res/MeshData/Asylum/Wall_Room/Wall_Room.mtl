@@ -1,0 +1,7 @@
+newmtl Wall_6 (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd Wall_6_Albedo.tga
+map_Bump Wall_6_Normal.tga
+illum 2
+

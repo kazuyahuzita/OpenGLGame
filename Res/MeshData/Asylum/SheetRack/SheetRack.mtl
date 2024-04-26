@@ -1,0 +1,7 @@
+newmtl SheetRack (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd SheetRack_Albedo.tga
+map_Bump SheetRack_Normal.tga
+illum 2
+

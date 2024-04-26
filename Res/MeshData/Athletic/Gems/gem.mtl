@@ -1,0 +1,8 @@
+newmtl Stone5
+Kd 1 1 1
+Ke 1 1 1
+map_Kd AlbedoStone5.tga
+map_Bump NormalStone5.tga
+map_Ke Stone5_Emissive.tga
+illum 2
+

@@ -1,0 +1,7 @@
+newmtl ChairWhite (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd ChairWhite_Albedo.tga
+map_Bump ChairWhite_Normal.tga
+illum 2
+

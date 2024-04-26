@@ -1,0 +1,8 @@
+newmtl rock1_LOWuvd_Group11424_rock1_LOWuvd_polySurface1Mat
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ke 0 0 0
+map_Kd demo_rock_01_c.tga
+map_Bump demo_rock_01_n.tga
+illum 2
+

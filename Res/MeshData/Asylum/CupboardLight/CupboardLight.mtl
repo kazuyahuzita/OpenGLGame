@@ -1,0 +1,7 @@
+newmtl CupboardLight (Instance) (Instance) (Instance)
+Kd 1 1 1
+Ke 0 0 0
+map_Kd CupboardLight_Albedo.tga
+map_Bump CupboardLight_Normal.tga
+illum 2
+
